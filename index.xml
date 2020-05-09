@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rafael Torres Moreno</title>
+    <link>/</link>
+    <description>Recent content on Rafael Torres Moreno</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About:me</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>&lt;p&gt;Hello folks!&lt;/p&gt;
+&lt;h2 id=&#34;who-am-i&#34;&gt;Who am I?&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;I have a degree and a master&amp;rsquo;s degree in Computer Science. Since I was barely 8 years old I showed interest and concern for technological issues, and later on computers became my ambition.
+Since my beginnings, I have had a clear passion for security and privacy of users, being this passion the reason why I am currently studying a PhD in these subjects.
+My capabilities are &amp;ldquo;dynamic&amp;rdquo;, I have a high rate of adaptation to any environment and in reduced times.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m used to working in a team, but I also have no problem working independently. I always put the maximum dedication in what I do and do not hesitate to take decisions to complete projects in the best possible way.&lt;/p&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;PHD STUDENT DIGITAL IDENTITY, PRIVACY &amp;amp; IOT, CURRENT&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MASTER IN NEW TECHNOLOGIES, 2017&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;DEGREE IN COMPUTER SCIENCE, 2015&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HIGHER EDUCATION IN SYSTEMS ADMINISTRATION, 2009&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;what-about-my-experience&#34;&gt;What about my experience?&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pre-doctoral security &amp;amp; privacy researcher&lt;/strong&gt;, University of Murcia, CURRENT&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pre-doctoral security &amp;amp; privacy researcher&lt;/strong&gt;, IBM Zürich, 2018&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;iOS Developer&lt;/strong&gt;, Leverade, 2014-2017&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intern&lt;/strong&gt;, Department of Information and Communications Engineering, University of Murcia, 2013-14&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intern&lt;/strong&gt;, Department of Information and Communications Engineering, University of Murcia, 2011-12&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Systems administrator&lt;/strong&gt;, Cieza (Murcia) City council, 2009&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;2020 - &lt;a href=&#34;https://www.researchgate.net/publication/339837881_Identity_Management_State_of_the_Art_Challenges_and_Perspectives&#34;&gt;Identity Management: State of the Art, Challenges and Perspectives&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2020 - &lt;a href=&#34;https://www.researchgate.net/publication/339192040_The_OLYMPUS_Architecture-Oblivious_Identity_Management_for_Private_User-Friendly_Services&#34;&gt;The OLYMPUS Architecture—Oblivious Identity Management for Private User-Friendly Services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2019 - &lt;a href=&#34;https://www.researchgate.net/publication/336937331_Privacy-preserving_solutions_for_Blockchain_review_and_challenges&#34;&gt;Privacy-Preserving Solutions for Blockchain: Review and Challenges&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2019 - &lt;a href=&#34;https://www.researchgate.net/publication/340917254_An_Overview_on_ARIES_Reliable_European_Identity_Ecosystem&#34;&gt;Chapter: An Overview on ARIES: Reliable European Identity Ecosystem&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2019 - &lt;a href=&#34;https://www.researchgate.net/publication/335499099_ARIES_Evaluation_of_a_reliable_and_privacy-preserving_European_identity_management_framework&#34;&gt;ARIES: Evaluation of a reliable and privacy-preserving European identity management framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2019 - &lt;a href=&#34;https://www.researchgate.net/publication/334629832_OLYMPUS_towards_Oblivious_identitY_Management_for_Private_and_User-friendly_Services&#34;&gt;OLYMPUS: towards Oblivious identitY Management for Private and User-friendly Services&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;skills-summary&#34;&gt;Skills summary&lt;/h2&gt;
+&lt;hr&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;../images/skills.png&#34;
+         alt=&#34;Skills summary&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Skills summary&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
