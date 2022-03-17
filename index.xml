@@ -59,5 +59,38 @@
 </description>
     </item>
     
+    <item>
+      <title>Just some content</title>
+      <link>/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;non-fungible-tokens-or-the-nft-issue&#34;&gt;Non Fungible Tokens, or the NFT issue&lt;/h2&gt;
+&lt;p&gt;The truth is that when we talk about Blockchain, DLT or any technology that could be even slightly related to Bitcoin, people tend to lose their heads and make absurd dissertations about the smell of clouds that often end up in even more absurd ideas such as selling a coloured monkey for totally obscene amounts of money.&lt;/p&gt;
+&lt;p&gt;The case of non fungible tokens or NFTs is the latest craze of the &amp;ldquo;crypto market&amp;rdquo; that was born as a way to democratise certain elements by reducing the power of entities such as central banks.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-an-nft&#34;&gt;What is an NFT?&lt;/h3&gt;
+&lt;p&gt;Technically speaking, it is a special type of cryptographic token that represents something unique, which can be related to something physical or on the contrary be exclusively virtual.&lt;/p&gt;
+&lt;p&gt;Special emphasis should be placed on the term &amp;ldquo;unique&amp;rdquo;.  Considering these tokens as unique means that they are not substitutable and therefore only a single unit of a particular token exists.  For example, while one Bitcoin can be replaced by another, obtaining the same value (market dependant) the painting &amp;ldquo;La Gioconda&amp;rdquo; is a unique and irreplaceable item. Only one and only one is the original and NFTs are intended to emulate that scenario.&lt;/p&gt;
+&lt;h3 id=&#34;objective-of-an-nft&#34;&gt;Objective of an NFT&lt;/h3&gt;
+&lt;p&gt;The main objective of an NFT is to cryptographically and digitally simulate the concept of &amp;ldquo;scarcity&amp;rdquo;. Along with this, the concept of digital property is also introduced. Not happy with living in a finite world, we have decided, for some reason, to simulate such terrible parts as the scarcity.&lt;/p&gt;
+&lt;p&gt;In video games, NFTs can be used to represent assets controlled by users where developers do not intervene. For example, in a farming game where, an NFT could represent our plot. We could trade or sell that particular plot with another player. Apparently this is an interesting idea in the virtual world (hello, Metaverse).&lt;/p&gt;
+&lt;p&gt;However, when we talk about scarcity and &amp;ldquo;owning something unique&amp;rdquo; we are inevitably talking about the world of art and collecting. This is also where the biggest stupidity of all comes in and where most users make decisions that are fatal for their economy.&lt;/p&gt;
+&lt;h3 id=&#34;the-mistake&#34;&gt;The mistake&lt;/h3&gt;
+&lt;p&gt;Users tend to think that NFT is also designed as an ownership protection mechanism:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;IT IS NOT.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NFT IS NOT LIKE DRM.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NFT DOES NOT PROTECT AGAINST COPYING.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;OK? With that in mind&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SERIOUSLY, IT IS NOT AN ANTI-COPYING MECHANISM.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;NFTs are designed to grant you ownership of the work. However, the artist can retain copyright and reproduction rights as with physical works of art.  In other words, anyone can buy a print of &amp;ldquo;La Gioconda&amp;rdquo; but only one original exists (and it&amp;rsquo;s in the Louvre).&lt;/p&gt;
+&lt;p&gt;The problem with this is that users have confused the &amp;ldquo;ownership&amp;rdquo; granted by an NFT. They thought that buying a digital work and owning it would be enough, but&amp;hellip;&lt;/p&gt;
+&lt;p&gt;What is the difference between a digital work and a copy of this digital work made with a simple ctrl+c and ctrl+v?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;None.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Morally the owner of the NFT is the one who has the original, but we are talking about a society that has decided to simulate scarcity in order to presume, even in an infinite world such as the virtual one.&lt;/p&gt;
+&lt;p&gt;In addition to the speculative market that has been generated around NFTs, we should also remember the HIGH ENERGY CONSUMPTION involved. So not only are we generating a stupid virtual world, but we are also making the real world worse.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
