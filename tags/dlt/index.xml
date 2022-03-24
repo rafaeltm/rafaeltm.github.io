@@ -6,10 +6,52 @@
     <description>Recent content in DLT on Rafael Torres Moreno</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Mar 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/dlt/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Distributed Ledger Technology and Blockchain</title>
+      <link>/posts/dlt_vs_bchain/</link>
+      <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/dlt_vs_bchain/</guid>
+      <description>&lt;hr&gt;
+&lt;h2 id=&#34;distributed-ledger-technology-dlt-and-blockchain-the-difference&#34;&gt;Distributed Ledger Technology (DLT) and Blockchain, the difference&lt;/h2&gt;
+&lt;p&gt;The cryptocurrency boom has brought with it the popularisation of blockchain. It is easy to find on the internet a huge amount of misinformation about this technology and its uses. Mainly around the theme of making money without effort (&lt;strong&gt;we all know that nobody gives money for free, right?&lt;/strong&gt;) and the possibility of having a Ferrari at the door of the house with a full fuel deposit without moving the ass of the chair. All this is a spectacular breeding ground for users to be duped in a variety of creative ways (although if we look at it with a bit of perspective, it&amp;rsquo;s the same crude pyramid scam as in the days of &lt;a href=&#34;https://en.wikipedia.org/wiki/Methuselah&#34;&gt;Methuselah&lt;/a&gt;).&lt;/p&gt;
+&lt;h3 id=&#34;are-dlt-and-blockchain-the-same-thing&#34;&gt;Are DLT and Blockchain the same thing?&lt;/h3&gt;
+&lt;p&gt;We have the short answer: &lt;strong&gt;No&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The long answer &amp;hellip;&lt;/p&gt;
+&lt;h4 id=&#34;distributed-ledger-technology-dlt&#34;&gt;Distributed Ledger Technology (DLT)&lt;/h4&gt;
+&lt;p&gt;Distributed Ledger Technologies or DLTs are, in a manner of speaking, the parents of a whole bunch of other distributed technologies. Among them, Blockchain: the darling. A distributed ledger or DLT is a database that is updated and maintained independently by each of the members of the network. In this network there is no central authority and all participants maintain a copy of the database independently.&lt;/p&gt;
+&lt;p&gt;A simple example would be 4 friends (the network), each with their own notebook (database), recording the outside temperature (data). Each time one of them makes a new entry, he communicates it to his friends (transaction log) so that all of them can update their notebook. None of them has more responsibility than the other. The chat through which friends communicate their changes is called the transaction log, and all participants must have access to this log in order to keep the databases correctly updated. If, for whatever reason, we were lucky enough to have a new friend, simply by giving him access to the transaction log (the group chat), he could fill in his own notebook without much trouble. Interesting, isn&amp;rsquo;t it?&lt;/p&gt;
+&lt;p&gt;So, if DLT is just the technology behind Blockchain, what is Blockchain?&lt;/p&gt;
+&lt;h4 id=&#34;blockchain-the-gold-hammer-for-solving-all-your-life-problems-while-adding-another-ones-oh-the-irony&#34;&gt;Blockchain (The gold hammer for solving all your life problems while adding another ones [oh, the irony])&lt;/h4&gt;
+&lt;p&gt;Blockchain is a type of DLT and the best known of all thanks to Bitcoin, Ethereum, and the &amp;ldquo;Cryptobros&amp;rdquo;, which is going to solve world hunger thanks to it (the cryptobro&amp;rsquo;s hunger, specifically. And with your money). Blockchain adds features such as immutability, a chain of blocks representation for data (you didn&amp;rsquo;t expect that, did you?), the introduction of consensus algorithms and the use of tokens.&lt;/p&gt;
+&lt;p&gt;Immutability allows us to be sure that none of our friends entered a piece of data and subsequently modified it, falsifying the database and leading to a spiral of distrust that would end with expulsion from the group and even more drastic measures such as never calling him/her again.&lt;/p&gt;
+&lt;p&gt;Unlike DLT, Blockchain imposes a specific way of handling the transactions record (block-block-block-block&amp;hellip;), i.e., in addition to having a notebook, you have to follow certain rules when adding content and to top it off, you have to agree with the other participants when operating! (consensus algorithms). The main problem with the Blockchain is that it consumes a lot of energy to make consensus happen. It is just as exhausting as trying to choose something on Netflix between 4 people without any clear idea of what you want to watch. In the end you have a cold pizza and you&amp;rsquo;re tired of living.&lt;/p&gt;
+&lt;p&gt;How the Blockchain works can be summarised in five steps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Step 1&lt;/strong&gt;. When one of your friends wants to make a transaction (Add a new temperature reading) he/she sends this information to all of his/her friends. Each one checks first some basic things, such as that this reading has not been sent before (duplicate transaction).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step 2&lt;/strong&gt;. If OK, each friend saves the information about the transaction in a personal log (pool).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step 3&lt;/strong&gt;. In established time periods, one of the friends is randomly chosen to propose a block containing the transactions in his/her personal log and here it comes the consensus: The proposed block must be signed by one of the friends and to see who signs, they must solve a mathematical problem whose winner will have the right to sign. In other words, as they are friends, they fight and the strongest will win (this, my friends, is what mining is all about).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step 4&lt;/strong&gt;. The proposed new block is signed by the winner, meaning that the block is sent to the rest of friends with a new version of the blockchain with all the blocks previously contained and a new block containing his/her own transactions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step 5&lt;/strong&gt;. Finally the friends will update the blockchain (their copies) if they consider the added block as valid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As you can see, the way it works is a bit more elaborate (although we have explained DLT very superficially).&lt;/p&gt;
+&lt;h4 id=&#34;blockchain-tokens&#34;&gt;Blockchain Tokens&lt;/h4&gt;
+&lt;p&gt;A &lt;strong&gt;Token&lt;/strong&gt; is essentially a digital asset that is securely stored on the blockchain. Tokens grant permission and/or ownership to a user. A bitcoin, for example, is a type of blockchain token.&lt;/p&gt;
+&lt;p&gt;When we talk about tokens, are we always talking about digital currencies? &lt;strong&gt;No&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Tokens usually have nothing to do with cryptocurrencies. A cryptocurrency unit is a token that is secured by cryptography. A token is not a cryptocurrency. A token simply means an asset that can be used by the user. To simplify: Bitcoin tokens can only be used as currencies. They are a form of monetary value. Bitcoins have no value outside the finance world. A blockchain token has a much broader functionality.&lt;/p&gt;
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+&lt;p&gt;DLT and Blockchain are not the same thing.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Whenever we talk about DLT we are not talking about Blockchain, but whenever we talk about Blockchain we are talking about a type of DLT.&lt;/li&gt;
+&lt;li&gt;Blockchain tokens are not just Bitcoins. They have a much wider application, the monetary application is (sadly) the one that transcends the most.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Non Fungible Tokens, or the NFT issue</title>

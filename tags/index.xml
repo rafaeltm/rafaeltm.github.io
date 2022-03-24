@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Rafael Torres Moreno</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Mar 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Blockchain</title>
       <link>/tags/blockchain/</link>
-      <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>/tags/blockchain/</guid>
       <description></description>
@@ -23,7 +23,7 @@
     <item>
       <title>DLT</title>
       <link>/tags/dlt/</link>
-      <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>/tags/dlt/</guid>
       <description></description>
@@ -35,15 +35,6 @@
       <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>/tags/nft/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy</title>
-      <link>/tags/privacy/</link>
-      <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/privacy/</guid>
       <description></description>
     </item>
     
