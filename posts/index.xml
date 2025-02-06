@@ -4,132 +4,30 @@
     <title>Posts on Rafael Torres Moreno</title>
     <link>/posts/</link>
     <description>Recent content in Posts on Rafael Torres Moreno</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 31 Mar 2022 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Smart contracts, what the heck?</title>
       <link>/posts/smart_contracts/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>/posts/smart_contracts/</guid>
-      <description>&lt;hr&gt;
-&lt;h2 id=&#34;smart-contracts-what-the-heck&#34;&gt;Smart contracts, what the heck?&lt;/h2&gt;
-&lt;h3 id=&#34;some-context&#34;&gt;Some context&lt;/h3&gt;
-&lt;p&gt;Smart contracts are another of those terms that we are starting to get tired of hearing. In magazines, on television, at dinner with your brother-in-law, in the supermarket queue&amp;hellip; In short, another of the many fashionable concepts repeated ad nauseam. However, apart from repeating them like a mantra, what are Smart Contracts and, more importantly, what the hell are they for?&lt;/p&gt;
-&lt;p&gt;First of all, I would like to point out that, like everything else that emerged in the wake of the &amp;ldquo;crypto&amp;rdquo; world, it did so with the aim of benefiting the end consumer. Back in the 1990s, with the emergence of consumer computing, ideas were already being put forward to automate contractual relations between different actors without the need for the figure of the intermediary (a figure who usually keeps a profit margin by making transactions more expensive by carrying out tasks that on many occasions nobody has asked for).&lt;/p&gt;
-&lt;p&gt;In any case, practically everyone has heard of &lt;a href=&#34;https://en.wikipedia.org/wiki/Satoshi_Nakamoto&#34;&gt;Satoshi Nakamoto&lt;/a&gt; at some point in reference to the person or persons who created Bitcoin, so it is fair to recognise that the precursor of Smart Contracts is &lt;a href=&#34;https://en.wikipedia.org/wiki/Nick_Szabo&#34;&gt;Nick Szabo&lt;/a&gt;, back in 1998.&lt;/p&gt;
-&lt;h3 id=&#34;smart-contract-what-it-is&#34;&gt;Smart Contract, what it is?&lt;/h3&gt;
-&lt;p&gt;A Smart Contract is like a typical paper contract and probably with better terms than an employment contract. Joking aside, these contracts will allow any resource to be exchanged securely, transparently and by eliminating the need for an intermediary (if there are no intermediaries, are commissions still necessary? Oh&amp;hellip;).&lt;/p&gt;
-&lt;p&gt;The simplest example was also defined by Szabo. Smart contracts are like a vending machine. When we receive an input of &lt;strong&gt;money + selection&lt;/strong&gt; (something healthy, of course) we get &amp;hellip; &lt;strong&gt;A snack!&lt;/strong&gt;. What happens in an ordinary shop? You go in, look at what you like and order it. Then a shop assistant will serve your selection to you and finally you will pay for the service and the snack. The shop assistant might go into a store far from your sight and just sit for 5 or 10 minutes absorbed in his thoughts and on his return, charge you a supplement for how difficult it was to find your snack in the store, this is not very transparent, isn&amp;rsquo;t it?.&lt;/p&gt;
-&lt;p&gt;Of course, the human touch when it comes to having a coffee is to be welcomed and we do not want to eliminate it (yet), but the human touch in which a fruit is 200% more expensive from the time it is picked until it reaches your table is an undesirable process. The invisible hand is, of course, undesirable.&lt;/p&gt;
-&lt;p&gt;Smart contracts are a step forward in transparency. Today, these contracts refer to small (or not so small) pieces of code that are able to launch themselves under certain circumstances (input conditions). Moreover, they are fully auditable, in the sense that anyone is able to inspect what a given contract does and how it does it.&lt;/p&gt;
-&lt;p&gt;Okay, okay, but what if someone decides to change a Smart Contract and modify it in such a way that, for example, the sum of 2 + 2 becomes 5? Don&amp;rsquo;t panic! Today, Smart Contracts are backed by Blockchain technology. This means that in addition to their code being visible to anyone, they have the immutability and decentralisation inherent to this technology.&lt;/p&gt;
-&lt;p&gt;So they cannot be changed? Not exactly. What you put into the chain, stays in the chain. So what happens is that we create new contracts as we want to update the way they work. This again requires consensus among the participants of the Blockchain network and therefore, if someone with bad intentions decides to make changes of dubious legitimacy, the whole network would have to agree to accept it for that change to happen.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;In a nutshell&lt;/strong&gt;: A Smart Contract is a computer program that is stored and launched in the context of a Blockchain network (Bitcoin, Ethereum &amp;hellip;).&lt;/p&gt;
-&lt;h3 id=&#34;smart-contract-main-features&#34;&gt;Smart contract main features&lt;/h3&gt;
-&lt;p&gt;These contracts have certain characteristics that are interesting to comment on:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Distributed&lt;/strong&gt;: As they are stored in the Blockchain network, we already know that all nodes have a replicated copy of the contract. All participants will always have the same version and unilateral modifications are avoided.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Deterministic&lt;/strong&gt;: The contract is only launched when the input conditions are met. The final result will always be the same for the same input no matter who launches it.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Autonomous&lt;/strong&gt;: They can automate virtually any task.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Immutable&lt;/strong&gt;: Once installed on the network, they are unchangeable.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Customisable&lt;/strong&gt;: We can create contracts to model our needs (even if our needs are to sell color-cats -NFT- we can do it&amp;hellip;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Trustless&lt;/strong&gt;: We do not need third parties to operate them.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Transparent&lt;/strong&gt;: Their code is visible and auditable by anyone (assuming that the Blockchain network is a public one. We&amp;rsquo;ve got private Blockchain networks where this situation differs a bit).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;some-usage-examples&#34;&gt;Some usage examples&lt;/h3&gt;
-&lt;p&gt;Contracts can be used in a very wide variety of scenarios. Moving away from the example of cryptocurrencies, we will point to governance, healthcare or supply chain processes.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Voting systems (government)&lt;/strong&gt;. In this scenario they provide a secure environment that makes the voting system less susceptible to manipulation. Votes using smart contracts would also be protected with blockchain technology, making everything extremely difficult to tamper with.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Health&lt;/strong&gt;. This is a particularly critical scenario, given the sensitivity of the data. Contracts would allow the storage of encrypted patient medical data, granting access to specific users for privacy reasons (i.e., patient and the doctor).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Supply chain&lt;/strong&gt;. Smart contracts can be used for inventory management and the automation of payments and tasks. Essentially, we can replace paper-based product traceability with digital traceability supported by the Blockchain network. Improving the accessibility of and maintaining excellent security conditions.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We won&amp;rsquo;t go into too much detail, but a quick search in your &lt;a href=&#34;https://www.startpage.com/&#34;&gt;favourite search engine&lt;/a&gt; can offer many interesting applications.&lt;/p&gt;
-&lt;h3 id=&#34;if-they-are-so-good&#34;&gt;If they are so good&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;The concept is very good, but Smart Contracts are code. Programmers are human (or so it seems). Humans make mistakes. Therefore, if programmers produce code in form of Smart Contracts, then they can have mistakes, so they can be flawed (YAY, LOGIC!). A failure in some kind of presumed critical contract could lead to consequences like massive hacks or other kinds of losses. So yes, smart contract technology is very good but unless we stop being humans it is best to take it slow and not put all the eggs in the same basket. In addition, the immutability of contracts also means that the ability to react to such problems is quite limited, leaving a fairly wide window of failure in the event of catastrophic failure.&lt;/p&gt;
-&lt;p&gt;It is true that, if we can polish the quality mechanisms to limit catastrophic errors and make the whole infrastructure of consistent quality, the inclusion of this technology can bring many benefits almost immediately. Therefore, it should not be overlooked.&lt;/p&gt;
-</description>
+      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;smart-contracts-what-the-heck&#34;&gt;&#xA;  Smart contracts, what the heck?&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#smart-contracts-what-the-heck&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;some-context&#34;&gt;&#xA;  Some context&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#some-context&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Smart contracts are another of those terms that we are starting to get tired of hearing. In magazines, on television, at dinner with your brother-in-law, in the supermarket queue&amp;hellip; In short, another of the many fashionable concepts repeated ad nauseam. However, apart from repeating them like a mantra, what are Smart Contracts and, more importantly, what the hell are they for?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Distributed Ledger Technology and Blockchain</title>
       <link>/posts/dlt_vs_bchain/</link>
       <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>/posts/dlt_vs_bchain/</guid>
-      <description>&lt;hr&gt;
-&lt;h2 id=&#34;distributed-ledger-technology-dlt-and-blockchain-the-difference&#34;&gt;Distributed Ledger Technology (DLT) and Blockchain, the difference&lt;/h2&gt;
-&lt;p&gt;The cryptocurrency boom has brought with it the popularisation of blockchain. It is easy to find on the internet a huge amount of misinformation about this technology and its uses. Mainly around the theme of making money without effort (&lt;strong&gt;we all know that nobody gives money for free, right?&lt;/strong&gt;) and the possibility of having a Ferrari at the door of the house with a full fuel deposit without moving the ass of the chair. All this is a spectacular breeding ground for users to be duped in a variety of creative ways (although if we look at it with a bit of perspective, it&amp;rsquo;s the same crude pyramid scam as in the days of &lt;a href=&#34;https://en.wikipedia.org/wiki/Methuselah&#34;&gt;Methuselah&lt;/a&gt;).&lt;/p&gt;
-&lt;h3 id=&#34;are-dlt-and-blockchain-the-same-thing&#34;&gt;Are DLT and Blockchain the same thing?&lt;/h3&gt;
-&lt;p&gt;We have the short answer: &lt;strong&gt;No&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The long answer:&lt;/p&gt;
-&lt;h4 id=&#34;distributed-ledger-technology-dlt&#34;&gt;Distributed Ledger Technology (DLT)&lt;/h4&gt;
-&lt;p&gt;Distributed Ledger Technologies or DLTs are, in a manner of speaking, the parents of a whole bunch of other distributed technologies. Among them, Blockchain: the darling. A distributed ledger or DLT is a database that is updated and maintained independently by each of the members of the network. In this network there is no central authority and all participants maintain a copy of the database independently.&lt;/p&gt;
-&lt;p&gt;A simple example would be 4 friends (the network), each with their own notebook (database), recording the outside temperature (data). Each time one of them makes a new entry, he communicates it to his friends (transaction log) so that all of them can update their notebook. None of them has more responsibility than the other. The chat through which friends communicate their changes is called the transaction log, and all participants must have access to this log in order to keep the databases correctly updated. If, for whatever reason, we were lucky enough to have a new friend, simply by giving him access to the transaction log (the group chat), he could fill in his own notebook without much trouble. Interesting, isn&amp;rsquo;t it?&lt;/p&gt;
-&lt;p&gt;So, if DLT is just the technology behind Blockchain, what is Blockchain?&lt;/p&gt;
-&lt;h4 id=&#34;blockchain-the-gold-hammer-for-solving-all-your-life-problems-while-adding-another-ones-oh-the-irony&#34;&gt;Blockchain (The gold hammer for solving all your life problems while adding another ones [oh, the irony])&lt;/h4&gt;
-&lt;p&gt;Blockchain is a type of DLT and the best known of all thanks to Bitcoin, Ethereum, and the &amp;ldquo;Cryptobros&amp;rdquo;, which is going to solve world hunger thanks to it (the cryptobro&amp;rsquo;s hunger, specifically. And with your money). Blockchain adds features such as immutability, a chain of blocks representation for data (you didn&amp;rsquo;t expect that, did you?), the introduction of consensus algorithms and the use of tokens.&lt;/p&gt;
-&lt;p&gt;Immutability allows us to be sure that none of our friends entered a piece of data and subsequently modified it, falsifying the database and leading to a spiral of distrust that would end with expulsion from the group and even more drastic measures such as never calling him/her again.&lt;/p&gt;
-&lt;p&gt;Unlike DLT, Blockchain imposes a specific way of handling the transactions record (block-block-block-block&amp;hellip;), i.e., in addition to having a notebook, you have to follow certain rules when adding content and to top it off, you have to agree with the other participants when operating! (consensus algorithms). The main problem with the Blockchain is that it consumes a lot of energy to make consensus happen. It is just as exhausting as trying to choose something on Netflix between 4 people without any clear idea of what you want to watch. In the end you have a cold pizza and you&amp;rsquo;re tired of living.&lt;/p&gt;
-&lt;p&gt;How the Blockchain works can be summarised in five steps:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Step 1&lt;/strong&gt;. When one of your friends wants to make a transaction (Add a new temperature reading) he/she sends this information to all of his/her friends. Each one checks first some basic things, such as that this reading has not been sent before (duplicate transaction).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Step 2&lt;/strong&gt;. If OK, each friend saves the information about the transaction in a personal log (pool).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Step 3&lt;/strong&gt;. In established time periods, one of the friends is randomly chosen to propose a block containing the transactions in his/her personal log and here it comes the consensus: The proposed block must be signed by one of the friends and to see who signs, they must solve a mathematical problem whose winner will have the right to sign. In other words, as they are friends, they fight and the strongest will win (this, my friends, is what mining is all about).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Step 4&lt;/strong&gt;. The proposed new block is signed by the winner, meaning that the block is sent to the rest of friends with a new version of the blockchain with all the blocks previously contained and a new block containing his/her own transactions.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Step 5&lt;/strong&gt;. Finally the friends will update the blockchain (their copies) if they consider the added block as valid.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;As you can see, the way it works is a bit more elaborate (although we have explained DLT very superficially).&lt;/p&gt;
-&lt;h4 id=&#34;blockchain-tokens&#34;&gt;Blockchain Tokens&lt;/h4&gt;
-&lt;p&gt;A &lt;strong&gt;Token&lt;/strong&gt; is essentially a digital asset that is securely stored on the blockchain. Tokens grant permission and/or ownership to a user. A bitcoin, for example, is a type of blockchain token.&lt;/p&gt;
-&lt;p&gt;When we talk about tokens, are we always talking about digital currencies? &lt;strong&gt;No&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Tokens usually have nothing to do with cryptocurrencies. A cryptocurrency unit is a token that is secured by cryptography. A token is not a cryptocurrency. A token simply means an asset that can be used by the user. To simplify: Bitcoin tokens can only be used as currencies. They are a form of monetary value. Bitcoins have no value outside the finance world. A blockchain token has a much broader functionality.&lt;/p&gt;
-&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
-&lt;p&gt;DLT and Blockchain are not the same thing.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Whenever we talk about DLT we are not talking about Blockchain, but whenever we talk about Blockchain we are talking about a type of DLT.&lt;/li&gt;
-&lt;li&gt;Blockchain tokens are not just Bitcoins. They have a much wider application, the monetary application is (sadly) the one that transcends the most.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;distributed-ledger-technology-dlt-and-blockchain-the-difference&#34;&gt;&#xA;  Distributed Ledger Technology (DLT) and Blockchain, the difference&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#distributed-ledger-technology-dlt-and-blockchain-the-difference&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The cryptocurrency boom has brought with it the popularisation of blockchain. It is easy to find on the internet a huge amount of misinformation about this technology and its uses. Mainly around the theme of making money without effort (&lt;strong&gt;we all know that nobody gives money for free, right?&lt;/strong&gt;) and the possibility of having a Ferrari at the door of the house with a full fuel deposit without moving the ass of the chair. All this is a spectacular breeding ground for users to be duped in a variety of creative ways (although if we look at it with a bit of perspective, it&amp;rsquo;s the same crude pyramid scam as in the days of &lt;a href=&#34;https://en.wikipedia.org/wiki/Methuselah&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Methuselah&lt;/a&gt;).&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Non Fungible Tokens, or the NFT issue</title>
       <link>/posts/nft/</link>
       <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>/posts/nft/</guid>
-      <description>&lt;hr&gt;
-&lt;h2 id=&#34;non-fungible-tokens-or-the-nft-issue&#34;&gt;Non Fungible Tokens, or the NFT issue&lt;/h2&gt;
-&lt;p&gt;The truth is that when we talk about Blockchain, DLT or any technology that could be even slightly related to Bitcoin, people tend to lose their heads and make absurd dissertations about the smell of clouds that often end up in even more absurd ideas such as selling a coloured monkey for totally obscene amounts of money.&lt;/p&gt;
-&lt;p&gt;The case of non fungible tokens or NFTs is the latest craze of the &amp;ldquo;crypto market&amp;rdquo; that was born as a way to democratise certain elements by reducing the power of entities such as central banks.&lt;/p&gt;
-&lt;h3 id=&#34;what-is-an-nft&#34;&gt;What is an NFT?&lt;/h3&gt;
-&lt;p&gt;Technically speaking, it is a special type of cryptographic token that represents something unique, which can be related to something physical or on the contrary be exclusively virtual.&lt;/p&gt;
-&lt;p&gt;Special emphasis should be placed on the term &amp;ldquo;unique&amp;rdquo;.  Considering these tokens as unique means that they are not substitutable and therefore only a single unit of a particular token exists.  For example, while one Bitcoin can be replaced by another, obtaining the same value (market dependant) the painting &amp;ldquo;La Gioconda&amp;rdquo; is a unique and irreplaceable item. Only one and only one is the original and NFTs are intended to emulate that scenario.&lt;/p&gt;
-&lt;h3 id=&#34;objective-of-an-nft&#34;&gt;Objective of an NFT&lt;/h3&gt;
-&lt;p&gt;The main objective of an NFT is to cryptographically and digitally simulate the concept of &amp;ldquo;scarcity&amp;rdquo;. Along with this, the concept of digital property is also introduced. Not happy with living in a finite world, we have decided, for some reason, to simulate such terrible parts as the scarcity.&lt;/p&gt;
-&lt;p&gt;In video games, NFTs can be used to represent assets controlled by users where developers do not intervene. For example, in a farming game where, an NFT could represent our plot. We could trade or sell that particular plot with another player. Apparently this is an interesting idea in the virtual world (hello, Metaverse).&lt;/p&gt;
-&lt;p&gt;However, when we talk about scarcity and &amp;ldquo;owning something unique&amp;rdquo; we are inevitably talking about the world of art and collecting. This is also where the biggest stupidity of all comes in and where most users make decisions that are fatal for their economy.&lt;/p&gt;
-&lt;h3 id=&#34;the-mistake&#34;&gt;The mistake&lt;/h3&gt;
-&lt;p&gt;Users tend to think that NFT is also designed as an ownership protection mechanism:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;IT IS NOT.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NFT IS NOT LIKE DRM.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;NFT DOES NOT PROTECT AGAINST COPYING.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;OK? With that in mind&amp;hellip;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;SERIOUSLY, IT IS NOT AN ANTI-COPYING MECHANISM.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;NFTs are designed to grant you ownership of the work. However, the artist can retain copyright and reproduction rights as with physical works of art.  In other words, anyone can buy a print of &amp;ldquo;La Gioconda&amp;rdquo; but only one original exists (and it&amp;rsquo;s in the Louvre).&lt;/p&gt;
-&lt;p&gt;The problem with this is that users have confused the &amp;ldquo;ownership&amp;rdquo; granted by an NFT. They thought that buying a digital work and owning it would be enough, but&amp;hellip;&lt;/p&gt;
-&lt;p&gt;What is the difference between a digital work and a copy of this digital work made with a simple ctrl+c and ctrl+v?&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;None.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Morally the owner of the NFT is the one who has the original, but we are talking about a society that has decided to simulate scarcity in order to flaunt, even in an infinite world such as the virtual one.&lt;/p&gt;
-&lt;p&gt;In addition to the speculative market that has been generated around NFTs, we should also remember the HIGH ENERGY CONSUMPTION involved. So not only are we generating a stupid virtual world, but we are also making the real world worse.&lt;/p&gt;
-</description>
+      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;non-fungible-tokens-or-the-nft-issue&#34;&gt;&#xA;  Non Fungible Tokens, or the NFT issue&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#non-fungible-tokens-or-the-nft-issue&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The truth is that when we talk about Blockchain, DLT or any technology that could be even slightly related to Bitcoin, people tend to lose their heads and make absurd dissertations about the smell of clouds that often end up in even more absurd ideas such as selling a coloured monkey for totally obscene amounts of money.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

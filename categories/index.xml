@@ -4,11 +4,8 @@
     <title>Categories on Rafael Torres Moreno</title>
     <link>/categories/</link>
     <description>Recent content in Categories on Rafael Torres Moreno</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

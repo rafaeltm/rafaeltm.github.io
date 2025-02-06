@@ -1,137 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Language" content="en">
-
-    <meta name="author" content="Rafael Torres Moreno">
-    <meta name="description" content="What&#39;s behind the fancy name?">
-    <meta name="keywords" content="blog,personal">
-
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Smart contracts, what the heck?"/>
-<meta name="twitter:description" content="What&#39;s behind the fancy name?"/>
-
-    <meta property="og:title" content="Smart contracts, what the heck?" />
-<meta property="og:description" content="What&#39;s behind the fancy name?" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/smart_contracts/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-03-31T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-03-31T00:00:00+00:00" />
-
-
-    
-      <base href="/posts/smart_contracts/">
-    
-    <title>
+<head>
+  <title>
   Smart contracts, what the heck? · Rafael Torres Moreno
 </title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
 
-    
-      <link rel="canonical" href="/posts/smart_contracts/">
-    
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
 
-    
-      
-      
-      <link rel="stylesheet" href="/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
-    
 
-    
+<meta name="author" content="Rafael Torres Moreno">
+<meta name="description" content="What&#39;s behind the fancy name?">
+<meta name="keywords" content="blog,personal">
 
-    
 
-    
-      <link rel="stylesheet" href="/css/custom.css" />
-    
 
-    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Smart contracts, what the heck?">
+  <meta name="twitter:description" content="What&#39;s behind the fancy name?">
 
-    <link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+<meta property="og:url" content="/posts/smart_contracts/">
+  <meta property="og:site_name" content="Rafael Torres Moreno">
+  <meta property="og:title" content="Smart contracts, what the heck?">
+  <meta property="og:description" content="What&#39;s behind the fancy name?">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-03-31T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-03-31T00:00:00+00:00">
+    <meta property="article:tag" content="DLT">
+    <meta property="article:tag" content="Blockchain">
+    <meta property="article:tag" content="Smart Contract">
 
-    <meta name="generator" content="Hugo 0.115.1">
-  </head>
+
+
+
+<link rel="canonical" href="/posts/smart_contracts/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
 
   
   
-  <body class="colorscheme-light">
-    <main class="wrapper">
-      <nav class="navigation">
+  <link rel="stylesheet" href="/css/coder.min.b886fe0d9034709648f91f4ce178f51dd367d9350f82dd1132d54fd69bfca66f.css" integrity="sha256-uIb&#43;DZA0cJZI&#43;R9M4Xj1HdNn2TUPgt0RMtVP1pv8pm8=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+<body class="preload-transitions colorscheme-light">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
   <section class="container">
+    
     <a class="navigation-title" href="/">
       Rafael Torres Moreno
     </a>
     
-    <input type="checkbox" id="menu-toggle" />
-    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
-    <ul class="navigation-list">
-      
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
         
-          <li class="navigation-item">
-            <a class="navigation-link" href="/posts/">Blog</a>
-          </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
         
-          <li class="navigation-item">
-            <a class="navigation-link" href="/about/">About</a>
-          </li>
         
-      
-      
-    </ul>
+      </ul>
     
   </section>
 </nav>
 
 
-      <div class="content">
-        
+    <div class="content">
+      
   <section class="container post">
     <article>
       <header>
         <div class="post-title">
-          <h1 class="title">Smart contracts, what the heck?</h1>
+          <h1 class="title">
+            <a class="title-link" href="/posts/smart_contracts/">
+              Smart contracts, what the heck?
+            </a>
+          </h1>
         </div>
         <div class="post-meta">
           <div class="date">
             <span class="posted-on">
-              <i class="fas fa-calendar"></i>
-              <time datetime='2022-03-31T00:00:00Z'>
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2022-03-31T00:00:00Z">
                 March 31, 2022
               </time>
             </span>
             <span class="reading-time">
-              <i class="fas fa-clock"></i>
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
               6-minute read
             </span>
           </div>
           
+          
           <div class="tags">
-  <i class="fas fa-tag"></i>
-    <a href="/tags/dlt/">DLT</a>
+  <i class="fa-solid fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/dlt/">DLT</a>
+    </span>
       <span class="separator">•</span>
-    <a href="/tags/blockchain/">Blockchain</a>
+    <span class="tag">
+      <a href="/tags/blockchain/">Blockchain</a>
+    </span>
       <span class="separator">•</span>
-    <a href="/tags/smart-contract/">Smart Contract</a></div>
+    <span class="tag">
+      <a href="/tags/smart-contract/">Smart Contract</a>
+    </span></div>
 
         </div>
       </header>
 
-      <div>
+      <div class="post-content">
         
         <hr>
-<h2 id="smart-contracts-what-the-heck">Smart contracts, what the heck?</h2>
-<h3 id="some-context">Some context</h3>
+<h2 id="smart-contracts-what-the-heck">
+  Smart contracts, what the heck?
+  <a class="heading-link" href="#smart-contracts-what-the-heck">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="some-context">
+  Some context
+  <a class="heading-link" href="#some-context">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
 <p>Smart contracts are another of those terms that we are starting to get tired of hearing. In magazines, on television, at dinner with your brother-in-law, in the supermarket queue&hellip; In short, another of the many fashionable concepts repeated ad nauseam. However, apart from repeating them like a mantra, what are Smart Contracts and, more importantly, what the hell are they for?</p>
 <p>First of all, I would like to point out that, like everything else that emerged in the wake of the &ldquo;crypto&rdquo; world, it did so with the aim of benefiting the end consumer. Back in the 1990s, with the emergence of consumer computing, ideas were already being put forward to automate contractual relations between different actors without the need for the figure of the intermediary (a figure who usually keeps a profit margin by making transactions more expensive by carrying out tasks that on many occasions nobody has asked for).</p>
-<p>In any case, practically everyone has heard of <a href="https://en.wikipedia.org/wiki/Satoshi_Nakamoto">Satoshi Nakamoto</a> at some point in reference to the person or persons who created Bitcoin, so it is fair to recognise that the precursor of Smart Contracts is <a href="https://en.wikipedia.org/wiki/Nick_Szabo">Nick Szabo</a>, back in 1998.</p>
-<h3 id="smart-contract-what-it-is">Smart Contract, what it is?</h3>
+<p>In any case, practically everyone has heard of <a href="https://en.wikipedia.org/wiki/Satoshi_Nakamoto"  class="external-link" target="_blank" rel="noopener">Satoshi Nakamoto</a> at some point in reference to the person or persons who created Bitcoin, so it is fair to recognise that the precursor of Smart Contracts is <a href="https://en.wikipedia.org/wiki/Nick_Szabo"  class="external-link" target="_blank" rel="noopener">Nick Szabo</a>, back in 1998.</p>
+<h3 id="smart-contract-what-it-is">
+  Smart Contract, what it is?
+  <a class="heading-link" href="#smart-contract-what-it-is">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
 <p>A Smart Contract is like a typical paper contract and probably with better terms than an employment contract. Joking aside, these contracts will allow any resource to be exchanged securely, transparently and by eliminating the need for an intermediary (if there are no intermediaries, are commissions still necessary? Oh&hellip;).</p>
 <p>The simplest example was also defined by Szabo. Smart contracts are like a vending machine. When we receive an input of <strong>money + selection</strong> (something healthy, of course) we get &hellip; <strong>A snack!</strong>. What happens in an ordinary shop? You go in, look at what you like and order it. Then a shop assistant will serve your selection to you and finally you will pay for the service and the snack. The shop assistant might go into a store far from your sight and just sit for 5 or 10 minutes absorbed in his thoughts and on his return, charge you a supplement for how difficult it was to find your snack in the store, this is not very transparent, isn&rsquo;t it?.</p>
 <p>Of course, the human touch when it comes to having a coffee is to be welcomed and we do not want to eliminate it (yet), but the human touch in which a fruit is 200% more expensive from the time it is picked until it reaches your table is an undesirable process. The invisible hand is, of course, undesirable.</p>
@@ -139,7 +204,13 @@
 <p>Okay, okay, but what if someone decides to change a Smart Contract and modify it in such a way that, for example, the sum of 2 + 2 becomes 5? Don&rsquo;t panic! Today, Smart Contracts are backed by Blockchain technology. This means that in addition to their code being visible to anyone, they have the immutability and decentralisation inherent to this technology.</p>
 <p>So they cannot be changed? Not exactly. What you put into the chain, stays in the chain. So what happens is that we create new contracts as we want to update the way they work. This again requires consensus among the participants of the Blockchain network and therefore, if someone with bad intentions decides to make changes of dubious legitimacy, the whole network would have to agree to accept it for that change to happen.</p>
 <p><strong>In a nutshell</strong>: A Smart Contract is a computer program that is stored and launched in the context of a Blockchain network (Bitcoin, Ethereum &hellip;).</p>
-<h3 id="smart-contract-main-features">Smart contract main features</h3>
+<h3 id="smart-contract-main-features">
+  Smart contract main features
+  <a class="heading-link" href="#smart-contract-main-features">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
 <p>These contracts have certain characteristics that are interesting to comment on:</p>
 <ul>
 <li><strong>Distributed</strong>: As they are stored in the Blockchain network, we already know that all nodes have a replicated copy of the contract. All participants will always have the same version and unilateral modifications are avoided.</li>
@@ -150,15 +221,27 @@
 <li><strong>Trustless</strong>: We do not need third parties to operate them.</li>
 <li><strong>Transparent</strong>: Their code is visible and auditable by anyone (assuming that the Blockchain network is a public one. We&rsquo;ve got private Blockchain networks where this situation differs a bit).</li>
 </ul>
-<h3 id="some-usage-examples">Some usage examples</h3>
+<h3 id="some-usage-examples">
+  Some usage examples
+  <a class="heading-link" href="#some-usage-examples">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
 <p>Contracts can be used in a very wide variety of scenarios. Moving away from the example of cryptocurrencies, we will point to governance, healthcare or supply chain processes.</p>
 <ul>
 <li><strong>Voting systems (government)</strong>. In this scenario they provide a secure environment that makes the voting system less susceptible to manipulation. Votes using smart contracts would also be protected with blockchain technology, making everything extremely difficult to tamper with.</li>
 <li><strong>Health</strong>. This is a particularly critical scenario, given the sensitivity of the data. Contracts would allow the storage of encrypted patient medical data, granting access to specific users for privacy reasons (i.e., patient and the doctor).</li>
 <li><strong>Supply chain</strong>. Smart contracts can be used for inventory management and the automation of payments and tasks. Essentially, we can replace paper-based product traceability with digital traceability supported by the Blockchain network. Improving the accessibility of and maintaining excellent security conditions.</li>
 </ul>
-<p>We won&rsquo;t go into too much detail, but a quick search in your <a href="https://www.startpage.com/">favourite search engine</a> can offer many interesting applications.</p>
-<h3 id="if-they-are-so-good">If they are so good&hellip;</h3>
+<p>We won&rsquo;t go into too much detail, but a quick search in your <a href="https://www.startpage.com/"  class="external-link" target="_blank" rel="noopener">favourite search engine</a> can offer many interesting applications.</p>
+<h3 id="if-they-are-so-good">
+  If they are so good&hellip;
+  <a class="heading-link" href="#if-they-are-so-good">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
 <p>The concept is very good, but Smart Contracts are code. Programmers are human (or so it seems). Humans make mistakes. Therefore, if programmers produce code in form of Smart Contracts, then they can have mistakes, so they can be flawed (YAY, LOGIC!). A failure in some kind of presumed critical contract could lead to consequences like massive hacks or other kinds of losses. So yes, smart contract technology is very good but unless we stop being humans it is best to take it slow and not put all the eggs in the same basket. In addition, the immutability of contracts also means that the ability to react to such problems is quite limited, leaving a fairly wide window of failure in the event of catastrophic failure.</p>
 <p>It is true that, if we can polish the quality mechanisms to limit catastrophic errors and make the whole infrastructure of consistent quality, the inclusion of this technology can bring many benefits almost immediately. Therefore, it should not be overlooked.</p>
 
@@ -169,80 +252,96 @@
         
 
 
-        <div id="disqus_thread"></div>
-<script type="application/javascript">
-    window.disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "rtm" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        
+        
+        
+        
+        
         
         
       </footer>
     </article>
 
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/startup.js" id="MathJax-script"></script>
-  <script>
-    MathJax = {
-      tex: {
-        inlineMath: [
-          ['$', '$'], ['\\(', '\\)']
-        ],
-        processEscapes: true,
-        processEnvironments: true
-      },
-      options: {
-        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css"
+    integrity="sha384-vKruj+a13U8yHIkAyGgK1J3ArTLzrFGBbBc0tDp4ad/EyewESeXE/Iv67Aj8gKZ0" crossorigin="anonymous">
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"
+    integrity="sha384-PwRUT/YqbnEjkZO0zZxNqcxACrXe+j766U2amXcgMg5457rve2Y7I6ZJSm2A0mS4" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"
+    integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,
+      {
+        delimiters: [
+          {left: '$$', right: '$$', display:true},
+          {left: '$', right: '$', display:false},
+          {left: '\\(', right: '\\)', display: false},
+          {left: '\\[', right: '\\]', display: true}
+        ]
       }
-    };
-  </script>
+    );"></script>
   </section>
 
-      </div>
+    </div>
 
-      
-  <footer class="footer">
-    <section class="container">
-      
-        <p>"The city’s central computer told you? R2D2, you know better than to trust a strange computer!"</p>
-      
-      
-        ©
-        
-        2023
-         Rafael Torres Moreno 
-      
-      
-         · 
-        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
-      
-      
-    </section>
-  </footer>
-
-    </main>
-
+    <footer class="footer">
+  <section class="container">
+    ©
     
-
+    2025
+     Rafael Torres Moreno 
+    ·
     
-
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
     
+  </section>
+</footer>
 
-  </body>
+  </main>
 
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
 </html>

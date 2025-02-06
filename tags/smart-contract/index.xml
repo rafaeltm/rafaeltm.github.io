@@ -4,57 +4,16 @@
     <title>Smart Contract on Rafael Torres Moreno</title>
     <link>/tags/smart-contract/</link>
     <description>Recent content in Smart Contract on Rafael Torres Moreno</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 31 Mar 2022 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/smart-contract/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="/tags/smart-contract/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Smart contracts, what the heck?</title>
       <link>/posts/smart_contracts/</link>
       <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      
       <guid>/posts/smart_contracts/</guid>
-      <description>&lt;hr&gt;
-&lt;h2 id=&#34;smart-contracts-what-the-heck&#34;&gt;Smart contracts, what the heck?&lt;/h2&gt;
-&lt;h3 id=&#34;some-context&#34;&gt;Some context&lt;/h3&gt;
-&lt;p&gt;Smart contracts are another of those terms that we are starting to get tired of hearing. In magazines, on television, at dinner with your brother-in-law, in the supermarket queue&amp;hellip; In short, another of the many fashionable concepts repeated ad nauseam. However, apart from repeating them like a mantra, what are Smart Contracts and, more importantly, what the hell are they for?&lt;/p&gt;
-&lt;p&gt;First of all, I would like to point out that, like everything else that emerged in the wake of the &amp;ldquo;crypto&amp;rdquo; world, it did so with the aim of benefiting the end consumer. Back in the 1990s, with the emergence of consumer computing, ideas were already being put forward to automate contractual relations between different actors without the need for the figure of the intermediary (a figure who usually keeps a profit margin by making transactions more expensive by carrying out tasks that on many occasions nobody has asked for).&lt;/p&gt;
-&lt;p&gt;In any case, practically everyone has heard of &lt;a href=&#34;https://en.wikipedia.org/wiki/Satoshi_Nakamoto&#34;&gt;Satoshi Nakamoto&lt;/a&gt; at some point in reference to the person or persons who created Bitcoin, so it is fair to recognise that the precursor of Smart Contracts is &lt;a href=&#34;https://en.wikipedia.org/wiki/Nick_Szabo&#34;&gt;Nick Szabo&lt;/a&gt;, back in 1998.&lt;/p&gt;
-&lt;h3 id=&#34;smart-contract-what-it-is&#34;&gt;Smart Contract, what it is?&lt;/h3&gt;
-&lt;p&gt;A Smart Contract is like a typical paper contract and probably with better terms than an employment contract. Joking aside, these contracts will allow any resource to be exchanged securely, transparently and by eliminating the need for an intermediary (if there are no intermediaries, are commissions still necessary? Oh&amp;hellip;).&lt;/p&gt;
-&lt;p&gt;The simplest example was also defined by Szabo. Smart contracts are like a vending machine. When we receive an input of &lt;strong&gt;money + selection&lt;/strong&gt; (something healthy, of course) we get &amp;hellip; &lt;strong&gt;A snack!&lt;/strong&gt;. What happens in an ordinary shop? You go in, look at what you like and order it. Then a shop assistant will serve your selection to you and finally you will pay for the service and the snack. The shop assistant might go into a store far from your sight and just sit for 5 or 10 minutes absorbed in his thoughts and on his return, charge you a supplement for how difficult it was to find your snack in the store, this is not very transparent, isn&amp;rsquo;t it?.&lt;/p&gt;
-&lt;p&gt;Of course, the human touch when it comes to having a coffee is to be welcomed and we do not want to eliminate it (yet), but the human touch in which a fruit is 200% more expensive from the time it is picked until it reaches your table is an undesirable process. The invisible hand is, of course, undesirable.&lt;/p&gt;
-&lt;p&gt;Smart contracts are a step forward in transparency. Today, these contracts refer to small (or not so small) pieces of code that are able to launch themselves under certain circumstances (input conditions). Moreover, they are fully auditable, in the sense that anyone is able to inspect what a given contract does and how it does it.&lt;/p&gt;
-&lt;p&gt;Okay, okay, but what if someone decides to change a Smart Contract and modify it in such a way that, for example, the sum of 2 + 2 becomes 5? Don&amp;rsquo;t panic! Today, Smart Contracts are backed by Blockchain technology. This means that in addition to their code being visible to anyone, they have the immutability and decentralisation inherent to this technology.&lt;/p&gt;
-&lt;p&gt;So they cannot be changed? Not exactly. What you put into the chain, stays in the chain. So what happens is that we create new contracts as we want to update the way they work. This again requires consensus among the participants of the Blockchain network and therefore, if someone with bad intentions decides to make changes of dubious legitimacy, the whole network would have to agree to accept it for that change to happen.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;In a nutshell&lt;/strong&gt;: A Smart Contract is a computer program that is stored and launched in the context of a Blockchain network (Bitcoin, Ethereum &amp;hellip;).&lt;/p&gt;
-&lt;h3 id=&#34;smart-contract-main-features&#34;&gt;Smart contract main features&lt;/h3&gt;
-&lt;p&gt;These contracts have certain characteristics that are interesting to comment on:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Distributed&lt;/strong&gt;: As they are stored in the Blockchain network, we already know that all nodes have a replicated copy of the contract. All participants will always have the same version and unilateral modifications are avoided.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Deterministic&lt;/strong&gt;: The contract is only launched when the input conditions are met. The final result will always be the same for the same input no matter who launches it.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Autonomous&lt;/strong&gt;: They can automate virtually any task.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Immutable&lt;/strong&gt;: Once installed on the network, they are unchangeable.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Customisable&lt;/strong&gt;: We can create contracts to model our needs (even if our needs are to sell color-cats -NFT- we can do it&amp;hellip;).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Trustless&lt;/strong&gt;: We do not need third parties to operate them.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Transparent&lt;/strong&gt;: Their code is visible and auditable by anyone (assuming that the Blockchain network is a public one. We&amp;rsquo;ve got private Blockchain networks where this situation differs a bit).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;some-usage-examples&#34;&gt;Some usage examples&lt;/h3&gt;
-&lt;p&gt;Contracts can be used in a very wide variety of scenarios. Moving away from the example of cryptocurrencies, we will point to governance, healthcare or supply chain processes.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Voting systems (government)&lt;/strong&gt;. In this scenario they provide a secure environment that makes the voting system less susceptible to manipulation. Votes using smart contracts would also be protected with blockchain technology, making everything extremely difficult to tamper with.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Health&lt;/strong&gt;. This is a particularly critical scenario, given the sensitivity of the data. Contracts would allow the storage of encrypted patient medical data, granting access to specific users for privacy reasons (i.e., patient and the doctor).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Supply chain&lt;/strong&gt;. Smart contracts can be used for inventory management and the automation of payments and tasks. Essentially, we can replace paper-based product traceability with digital traceability supported by the Blockchain network. Improving the accessibility of and maintaining excellent security conditions.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;We won&amp;rsquo;t go into too much detail, but a quick search in your &lt;a href=&#34;https://www.startpage.com/&#34;&gt;favourite search engine&lt;/a&gt; can offer many interesting applications.&lt;/p&gt;
-&lt;h3 id=&#34;if-they-are-so-good&#34;&gt;If they are so good&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;The concept is very good, but Smart Contracts are code. Programmers are human (or so it seems). Humans make mistakes. Therefore, if programmers produce code in form of Smart Contracts, then they can have mistakes, so they can be flawed (YAY, LOGIC!). A failure in some kind of presumed critical contract could lead to consequences like massive hacks or other kinds of losses. So yes, smart contract technology is very good but unless we stop being humans it is best to take it slow and not put all the eggs in the same basket. In addition, the immutability of contracts also means that the ability to react to such problems is quite limited, leaving a fairly wide window of failure in the event of catastrophic failure.&lt;/p&gt;
-&lt;p&gt;It is true that, if we can polish the quality mechanisms to limit catastrophic errors and make the whole infrastructure of consistent quality, the inclusion of this technology can bring many benefits almost immediately. Therefore, it should not be overlooked.&lt;/p&gt;
-</description>
+      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;smart-contracts-what-the-heck&#34;&gt;&#xA;  Smart contracts, what the heck?&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#smart-contracts-what-the-heck&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;some-context&#34;&gt;&#xA;  Some context&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#some-context&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Smart contracts are another of those terms that we are starting to get tired of hearing. In magazines, on television, at dinner with your brother-in-law, in the supermarket queue&amp;hellip; In short, another of the many fashionable concepts repeated ad nauseam. However, apart from repeating them like a mantra, what are Smart Contracts and, more importantly, what the hell are they for?&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
