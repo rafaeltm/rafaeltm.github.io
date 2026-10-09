@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Smart Contract on Rafael Torres Moreno</title>
-    <link>/tags/smart-contract/</link>
-    <description>Recent content in Smart Contract on Rafael Torres Moreno</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 31 Mar 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/smart-contract/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Smart contracts, what the heck?</title>
-      <link>/posts/smart_contracts/</link>
-      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>/posts/smart_contracts/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;smart-contracts-what-the-heck&#34;&gt;&#xA;  Smart contracts, what the heck?&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#smart-contracts-what-the-heck&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;some-context&#34;&gt;&#xA;  Some context&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#some-context&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Smart contracts are another of those terms that we are starting to get tired of hearing. In magazines, on television, at dinner with your brother-in-law, in the supermarket queue&amp;hellip; In short, another of the many fashionable concepts repeated ad nauseam. However, apart from repeating them like a mantra, what are Smart Contracts and, more importantly, what the hell are they for?&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Smart Contract on Rafael Torres Moreno</title>
+		<link>/tags/smart-contract/</link>
+		<description>Recent content in Smart Contract on Rafael Torres Moreno</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 31 Mar 2022 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="/tags/smart-contract/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Smart contracts, what the heck?</title>
+				<link>/posts/smart_contracts/</link>
+				<pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+				<guid>/posts/smart_contracts/</guid>
+				<description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;smart-contracts-what-the-heck&#34;&gt;&#xA;  Smart contracts, what the heck?&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#smart-contracts-what-the-heck&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;some-context&#34;&gt;&#xA;  Some context&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#some-context&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Smart contracts are another of those terms that we are starting to get tired of hearing. In magazines, on television, at dinner with your brother-in-law, in the supermarket queue&amp;hellip; In short, another of the many fashionable concepts repeated ad nauseam. However, apart from repeating them like a mantra, what are Smart Contracts and, more importantly, what the hell are they for?&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

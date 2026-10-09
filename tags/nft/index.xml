@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Nft on Rafael Torres Moreno</title>
-    <link>/tags/nft/</link>
-    <description>Recent content in Nft on Rafael Torres Moreno</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 18 Mar 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/nft/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Non Fungible Tokens, or the NFT issue</title>
-      <link>/posts/nft/</link>
-      <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>/posts/nft/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;non-fungible-tokens-or-the-nft-issue&#34;&gt;&#xA;  Non Fungible Tokens, or the NFT issue&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#non-fungible-tokens-or-the-nft-issue&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The truth is that when we talk about Blockchain, DLT or any technology that could be even slightly related to Bitcoin, people tend to lose their heads and make absurd dissertations about the smell of clouds that often end up in even more absurd ideas such as selling a coloured monkey for totally obscene amounts of money.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Nft on Rafael Torres Moreno</title>
+		<link>/tags/nft/</link>
+		<description>Recent content in Nft on Rafael Torres Moreno</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 18 Mar 2022 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="/tags/nft/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Non Fungible Tokens, or the NFT issue</title>
+				<link>/posts/nft/</link>
+				<pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
+				<guid>/posts/nft/</guid>
+				<description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;non-fungible-tokens-or-the-nft-issue&#34;&gt;&#xA;  Non Fungible Tokens, or the NFT issue&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#non-fungible-tokens-or-the-nft-issue&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The truth is that when we talk about Blockchain, DLT or any technology that could be even slightly related to Bitcoin, people tend to lose their heads and make absurd dissertations about the smell of clouds that often end up in even more absurd ideas such as selling a coloured monkey for totally obscene amounts of money.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

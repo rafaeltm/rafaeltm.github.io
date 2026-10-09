@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blockchain on Rafael Torres Moreno</title>
-    <link>/tags/blockchain/</link>
-    <description>Recent content in Blockchain on Rafael Torres Moreno</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 31 Mar 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Smart contracts, what the heck?</title>
-      <link>/posts/smart_contracts/</link>
-      <pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>/posts/smart_contracts/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;smart-contracts-what-the-heck&#34;&gt;&#xA;  Smart contracts, what the heck?&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#smart-contracts-what-the-heck&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;some-context&#34;&gt;&#xA;  Some context&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#some-context&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Smart contracts are another of those terms that we are starting to get tired of hearing. In magazines, on television, at dinner with your brother-in-law, in the supermarket queue&amp;hellip; In short, another of the many fashionable concepts repeated ad nauseam. However, apart from repeating them like a mantra, what are Smart Contracts and, more importantly, what the hell are they for?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Distributed Ledger Technology and Blockchain</title>
-      <link>/posts/dlt_vs_bchain/</link>
-      <pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>/posts/dlt_vs_bchain/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;distributed-ledger-technology-dlt-and-blockchain-the-difference&#34;&gt;&#xA;  Distributed Ledger Technology (DLT) and Blockchain, the difference&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#distributed-ledger-technology-dlt-and-blockchain-the-difference&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The cryptocurrency boom has brought with it the popularisation of blockchain. It is easy to find on the internet a huge amount of misinformation about this technology and its uses. Mainly around the theme of making money without effort (&lt;strong&gt;we all know that nobody gives money for free, right?&lt;/strong&gt;) and the possibility of having a Ferrari at the door of the house with a full fuel deposit without moving the ass of the chair. All this is a spectacular breeding ground for users to be duped in a variety of creative ways (although if we look at it with a bit of perspective, it&amp;rsquo;s the same crude pyramid scam as in the days of &lt;a href=&#34;https://en.wikipedia.org/wiki/Methuselah&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Methuselah&lt;/a&gt;).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Non Fungible Tokens, or the NFT issue</title>
-      <link>/posts/nft/</link>
-      <pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>/posts/nft/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;non-fungible-tokens-or-the-nft-issue&#34;&gt;&#xA;  Non Fungible Tokens, or the NFT issue&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#non-fungible-tokens-or-the-nft-issue&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The truth is that when we talk about Blockchain, DLT or any technology that could be even slightly related to Bitcoin, people tend to lose their heads and make absurd dissertations about the smell of clouds that often end up in even more absurd ideas such as selling a coloured monkey for totally obscene amounts of money.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Blockchain on Rafael Torres Moreno</title>
+		<link>/tags/blockchain/</link>
+		<description>Recent content in Blockchain on Rafael Torres Moreno</description>
+		<generator>Hugo</generator>
+		<language>en</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 31 Mar 2022 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="/tags/blockchain/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Smart contracts, what the heck?</title>
+				<link>/posts/smart_contracts/</link>
+				<pubDate>Thu, 31 Mar 2022 00:00:00 +0000</pubDate>
+				<guid>/posts/smart_contracts/</guid>
+				<description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;smart-contracts-what-the-heck&#34;&gt;&#xA;  Smart contracts, what the heck?&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#smart-contracts-what-the-heck&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;h3 id=&#34;some-context&#34;&gt;&#xA;  Some context&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#some-context&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Smart contracts are another of those terms that we are starting to get tired of hearing. In magazines, on television, at dinner with your brother-in-law, in the supermarket queue&amp;hellip; In short, another of the many fashionable concepts repeated ad nauseam. However, apart from repeating them like a mantra, what are Smart Contracts and, more importantly, what the hell are they for?&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Distributed Ledger Technology and Blockchain</title>
+				<link>/posts/dlt_vs_bchain/</link>
+				<pubDate>Thu, 24 Mar 2022 00:00:00 +0000</pubDate>
+				<guid>/posts/dlt_vs_bchain/</guid>
+				<description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;distributed-ledger-technology-dlt-and-blockchain-the-difference&#34;&gt;&#xA;  Distributed Ledger Technology (DLT) and Blockchain, the difference&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#distributed-ledger-technology-dlt-and-blockchain-the-difference&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The cryptocurrency boom has brought with it the popularisation of blockchain. It is easy to find on the internet a huge amount of misinformation about this technology and its uses. Mainly around the theme of making money without effort (&lt;strong&gt;we all know that nobody gives money for free, right?&lt;/strong&gt;) and the possibility of having a Ferrari at the door of the house with a full fuel deposit without moving the ass of the chair. All this is a spectacular breeding ground for users to be duped in a variety of creative ways (although if we look at it with a bit of perspective, it&amp;rsquo;s the same crude pyramid scam as in the days of &lt;a href=&#34;https://en.wikipedia.org/wiki/Methuselah&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Methuselah&lt;/a&gt;).&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Non Fungible Tokens, or the NFT issue</title>
+				<link>/posts/nft/</link>
+				<pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate>
+				<guid>/posts/nft/</guid>
+				<description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;non-fungible-tokens-or-the-nft-issue&#34;&gt;&#xA;  Non Fungible Tokens, or the NFT issue&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#non-fungible-tokens-or-the-nft-issue&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The truth is that when we talk about Blockchain, DLT or any technology that could be even slightly related to Bitcoin, people tend to lose their heads and make absurd dissertations about the smell of clouds that often end up in even more absurd ideas such as selling a coloured monkey for totally obscene amounts of money.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
