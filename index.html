@@ -52,7 +52,7 @@
  
   
     
-    <link rel="stylesheet" href="/css/custom.min.2a34976166888ba1881f00616744c1f7ddc7291fd2a0f3f378b8581f6d945551.css" integrity="sha256-KjSXYWaIi6GIHwBhZ0TB993HKR/SoPPzeLhYH22UVVE=" crossorigin="anonymous" media="screen" />
+    <link rel="stylesheet" href="/css/custom.min.c0f48e082f29cc316b3675db469e5fe52cf70c84136de1dc6325a4c5da5a8c3f.css" integrity="sha256-wPSOCC8pzDFrNnXbRp5f5Sz3DIQTbeHcYyWkxdpajD8=" crossorigin="anonymous" media="screen" />
   
 
 
@@ -106,6 +106,8 @@
         <li><a href="/#about">About</a></li>
         
         <li><a href="/#research">Research</a></li>
+        
+        <li><a href="/#playground">Playground</a></li>
         
         <li><a href="/#contact">Contact</a></li>
         
@@ -289,6 +291,236 @@
         </ol>
       </div>
     </section>
+
+    <section class="home-section home-playground" id="playground" aria-labelledby="playground-heading">
+      <header class="home-section-label">
+        <p>05 <span>/</span> Playground</p>
+        <h2 id="playground-heading">Small tools,<br>real concepts.</h2>
+        <span class="home-label-note">Interactive explorations of tokens, public-key trust, contract logic and login security.</span>
+      </header>
+      <div class="home-section-body">
+        <div class="playground" data-playground>
+          <div class="playground-tabs" role="tablist" aria-label="Playground tools">
+            <button class="playground-tab" id="tab-jwt" type="button" role="tab" aria-selected="true" aria-controls="panel-jwt" tabindex="0">JWT inspector</button>
+            <button class="playground-tab" id="tab-pki" type="button" role="tab" aria-selected="false" aria-controls="panel-pki" tabindex="-1">Digital signatures</button>
+            <button class="playground-tab" id="tab-contract" type="button" role="tab" aria-selected="false" aria-controls="panel-contract" tabindex="-1">Smart contract</button>
+            <button class="playground-tab" id="tab-login" type="button" role="tab" aria-selected="false" aria-controls="panel-login" tabindex="-1">Login security</button>
+          </div>
+
+          <section class="playground-panel" id="panel-jwt" role="tabpanel" aria-labelledby="tab-jwt" tabindex="0">
+            <div class="jwt-tool" data-jwt-tool>
+              <div class="jwt-tool-heading">
+                <span>JSON Web Token</span>
+                <span class="jwt-local-label"><span></span> Local only</span>
+              </div>
+              <p class="jwt-tool-intro">Inspect a token's header and payload. The token stays in this browser; its signature is not verified.</p>
+              <form data-jwt-form>
+                <label for="jwt-token">Token</label>
+                <textarea id="jwt-token" data-jwt-input rows="4" spellcheck="false" autocapitalize="off" autocomplete="off" placeholder="Paste a JWT (header.payload.signature)"></textarea>
+                <div class="jwt-tool-actions">
+                  <button class="jwt-primary-button" type="submit">Decode token <span aria-hidden="true">→</span></button>
+                  <button class="jwt-quiet-button" type="button" data-jwt-sample>Load example</button>
+                  <button class="jwt-quiet-button" type="button" data-jwt-clear>Clear</button>
+                </div>
+                <p class="jwt-tool-status" data-jwt-status role="status" aria-live="polite">Paste a compact JWT, or load the example.</p>
+              </form>
+              <div class="jwt-tool-result" data-jwt-result hidden>
+                <p class="jwt-expiry" data-jwt-expiry hidden></p>
+                <div class="jwt-json-grid">
+                  <section aria-labelledby="jwt-header-title">
+                    <h3 id="jwt-header-title">Header</h3>
+                    <pre data-jwt-header></pre>
+                  </section>
+                  <section aria-labelledby="jwt-payload-title">
+                    <h3 id="jwt-payload-title">Payload</h3>
+                    <pre data-jwt-payload></pre>
+                  </section>
+                </div>
+              </div>
+              <p class="jwt-tool-footnote">Decoding does not validate authenticity. Never trust claims until the signature is verified by a trusted system.</p>
+            </div>
+            <div class="sequence-diagram" data-sequence-diagram="jwt">
+              <div class="sequence-heading"><strong>Live sequence</strong><span data-sequence-count>Waiting</span></div>
+              <div class="sequence-participants" aria-label="Sequence participants"><span>Textarea</span><span>JWT decoder</span><span>Base64 / UTF-8 APIs</span><span>JSON.parse()</span><span>Date.now()</span><span>UI output</span></div>
+              <ol class="sequence-events" data-sequence-events aria-live="polite"><li class="sequence-empty">Waiting for a token.</li></ol>
+            </div>
+          </section>
+
+          <section class="playground-panel" id="panel-pki" role="tabpanel" aria-labelledby="tab-pki" tabindex="0" hidden>
+            <div class="pki-tool" data-pki-lab>
+              <div class="pki-intro-row">
+                <p>Follow a message from key creation to verification. The cryptography is real; this compact demo certificate is not an X.509 certificate.</p>
+                <span class="pki-algorithm">ECDSA · P-256 · SHA-256</span>
+              </div>
+              <ol class="pki-chain" aria-label="Simplified certificate trust chain">
+                <li><span data-pki-node="root">01</span><div><strong>Root CA</strong><small data-pki-root-node>Not created</small></div></li>
+                <li><span data-pki-node="certificate">02</span><div><strong>Identity certificate</strong><small data-pki-certificate-node>Not issued</small></div></li>
+                <li><span data-pki-node="message">03</span><div><strong>Signed message</strong><small data-pki-message-node>Not signed</small></div></li>
+              </ol>
+
+              <div class="pki-steps">
+                <article class="pki-step">
+                  <div class="pki-step-number">01</div>
+                  <div class="pki-step-content">
+                    <h3>Create a trust anchor</h3>
+                    <p>A root CA creates a key pair and signs its own demo certificate. This lab explicitly trusts that root.</p>
+                    <button class="demo-primary-button" type="button" data-pki-create>Create demo root CA</button>
+                    <p class="pki-step-status" data-pki-root-status role="status">Keys exist only in memory for this session.</p>
+                  </div>
+                </article>
+                <article class="pki-step">
+                  <div class="pki-step-number">02</div>
+                  <div class="pki-step-content">
+                    <h3>Issue an identity certificate</h3>
+                    <p>The CA signs a certificate that binds “Demo User” to a public key. The private key stays with its owner.</p>
+                    <button class="demo-primary-button" type="button" data-pki-issue disabled>Issue certificate</button>
+                    <p class="pki-step-status" data-pki-certificate-status role="status">Create the root CA first.</p>
+                  </div>
+                </article>
+                <article class="pki-step">
+                  <div class="pki-step-number">03</div>
+                  <div class="pki-step-content">
+                    <h3>Sign and verify a message</h3>
+                    <label for="pki-message">Message</label>
+                    <textarea id="pki-message" data-pki-message rows="2">I approve this transaction.</textarea>
+                    <div class="demo-actions">
+                      <button class="demo-primary-button" type="button" data-pki-sign disabled>Sign message</button>
+                      <button class="demo-secondary-button" type="button" data-pki-verify disabled>Verify chain + signature</button>
+                      <button class="demo-secondary-button" type="button" data-pki-tamper disabled>Alter message</button>
+                    </div>
+                    <p class="pki-step-status" data-pki-message-status role="status">Issue a certificate first.</p>
+                    <div class="pki-checks" data-pki-checks hidden aria-live="polite">
+                      <p><span>Root self-signature</span><strong data-pki-root-check>Not checked</strong></p>
+                      <p><span>Identity certificate</span><strong data-pki-certificate-check>Not checked</strong></p>
+                      <p><span>Message signature</span><strong data-pki-message-check>Not checked</strong></p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <p class="pki-disclaimer">A teaching model of a PKI trust chain: no X.509 parsing, revocation checks, or external trust store. Reloading the page discards all keys.</p>
+            </div>
+            <div class="sequence-diagram" data-sequence-diagram="pki">
+              <div class="sequence-heading"><strong>Live sequence</strong><span data-sequence-count>Waiting</span></div>
+              <div class="sequence-participants" aria-label="Sequence participants"><span>UI / JS</span><span>Web Crypto API</span><span>Lab state</span><span>JS verifier</span></div>
+              <ol class="sequence-events" data-sequence-events aria-live="polite"><li class="sequence-empty">Create a root CA to begin.</li></ol>
+            </div>
+          </section>
+
+          <section class="playground-panel" id="panel-contract" role="tabpanel" aria-labelledby="tab-contract" tabindex="0" hidden>
+            <div class="contract-tool" data-contract-sim>
+              <div class="contract-intro-row">
+                <p>A tiny vending-machine contract. Each purchase checks its rules, changes state and emits an event.</p>
+                <span class="pki-algorithm">Local simulation · no blockchain</span>
+              </div>
+              <div class="contract-layout">
+                <div class="contract-simulator">
+                  <div class="contract-sim-heading"><strong>Vending machine</strong><span>Demo contract</span></div>
+                  <div class="contract-state" aria-live="polite">
+                    <div><span>Stock</span><strong data-contract-stock>3</strong></div>
+                    <div><span>Price</span><strong>0.01 ETH</strong></div>
+                    <div><span>Balance</span><strong data-contract-balance>0.00 ETH</strong></div>
+                  </div>
+                  <div class="contract-payment">
+                    <label for="contract-payment">Payment sent</label>
+                    <select id="contract-payment" data-contract-payment>
+                      <option value="10000000000000000" data-display="0.01 ETH">0.01 ETH · exact</option>
+                      <option value="5000000000000000" data-display="0.005 ETH">0.005 ETH · too little</option>
+                      <option value="20000000000000000" data-display="0.02 ETH">0.02 ETH · too much</option>
+                    </select>
+                  </div>
+                  <div class="contract-actions">
+                    <button class="demo-primary-button" type="button" data-contract-buy>Submit transaction</button>
+                    <button class="demo-secondary-button" type="button" data-contract-reset>Reset demo</button>
+                  </div>
+                  <p class="contract-status" data-contract-status role="status">Three items are in stock. Try a purchase.</p>
+                  <div class="contract-events-heading"><span>Transaction log</span><span>Local</span></div>
+                  <ol class="contract-events" data-contract-events aria-live="polite"></ol>
+                </div>
+                <div class="contract-explainer">
+                  <h3>The rules</h3>
+                  <pre><code>function buy() external payable {
+  require(stock &gt; 0, "Sold out");
+  require(msg.value == price, "Wrong amount");
+  stock -= 1;
+  emit Purchased(msg.sender, msg.value);
+}</code></pre>
+                  <ol>
+                    <li><strong>require</strong> checks conditions before changing state.</li>
+                    <li>A valid purchase reduces stock and increases the contract balance.</li>
+                    <li><strong>emit</strong> records an event for apps watching the chain.</li>
+                    <li>When stock reaches zero, the next purchase reverts and state stays unchanged.</li>
+                  </ol>
+                  <p>This is a browser simulation, not compiled Solidity and not connected to a wallet or network.</p>
+                </div>
+              </div>
+            </div>
+            <div class="sequence-diagram" data-sequence-diagram="contract">
+              <div class="sequence-heading"><strong>Live sequence</strong><span data-sequence-count>Waiting</span></div>
+              <div class="sequence-participants" aria-label="Sequence participants"><span>Demo UI</span><span>JS contract model</span><span>Local state</span><span>Event log</span></div>
+              <ol class="sequence-events" data-sequence-events aria-live="polite"><li class="sequence-empty">Submit a transaction to trace its execution.</li></ol>
+            </div>
+          </section>
+
+          <section class="playground-panel" id="panel-login" role="tabpanel" aria-labelledby="tab-login" tabindex="0" hidden>
+            <div class="login-tool" data-login-lab>
+              <div class="login-intro-row">
+                <p>See how repeated password guesses behave with and without basic protections. This is a fixed, offline simulation against one fictional account.</p>
+                <span class="pki-algorithm">Synthetic account · no network</span>
+              </div>
+              <div class="login-layout">
+                <form class="login-form" data-login-form>
+                  <div class="login-primary-fields" data-login-primary-fields>
+                    <div class="login-account-label"><span>Demo account</span><strong>demo-user</strong></div>
+                    <label for="login-username">Username</label>
+                    <input id="login-username" data-login-username value="demo-user" autocomplete="off">
+                    <label for="login-password">Password</label>
+                    <input id="login-password" data-login-password type="password" autocomplete="off" placeholder="Enter the demo password">
+                    <button class="demo-secondary-button login-fill-button" type="button" data-login-fill>Fill demo credentials</button>
+                  </div>
+
+                  <div class="login-options">
+                    <label><input type="checkbox" data-login-lockout> Lock after 3 failed attempts</label>
+                    <label><input type="checkbox" data-login-mfa> Require a second factor</label>
+                  </div>
+                  <div class="login-mfa-field" data-login-mfa-field hidden>
+                    <p class="login-step-kicker">Step 2 of 2</p>
+                    <h3>Verify it's you</h3>
+                    <p class="login-mfa-copy" data-login-mfa-context>Password accepted. Enter the one-time code to complete sign-in.</p>
+                    <label for="login-code">One-time code</label>
+                    <input id="login-code" data-login-code inputmode="numeric" autocomplete="one-time-code" maxlength="6" placeholder="6 digits">
+                    <p>Demo code: <code>042731</code></p>
+                  </div>
+
+                  <div class="login-actions">
+                    <button class="demo-primary-button" type="submit" data-login-submit>Sign in</button>
+                    <button class="demo-secondary-button" type="button" data-login-attack>Run 4-guess demo</button>
+                    <button class="demo-secondary-button" type="button" data-login-reset>Reset lab</button>
+                  </div>
+                  <p class="login-status" data-login-status role="status" aria-live="polite">Protection is off. Try the demo login or run the fixed attack.</p>
+                </form>
+
+                <div class="login-observer">
+                  <div class="login-metrics" aria-live="polite">
+                    <div><span>Attempts</span><strong data-login-attempts>0</strong></div>
+                    <div><span>Failed</span><strong data-login-failures>0</strong></div>
+                    <div><span>Account</span><strong data-login-state>Ready</strong></div>
+                  </div>
+                  <div class="login-log-heading"><span>Authentication events</span><span>Local</span></div>
+                  <ol class="login-events" data-login-events aria-live="polite"></ol>
+                  <p class="login-attack-note">The demo runs four fixed guesses locally. With protections off, the weak demo password is found; lockout or MFA changes the outcome.</p>
+                </div>
+              </div>
+              <p class="login-disclaimer">Training model only. Real systems must enforce rate limits and MFA on the server, store passwords with a slow salted hash, and avoid revealing whether a username exists.</p>
+            </div>
+            <div class="sequence-diagram" data-sequence-diagram="login">
+              <div class="sequence-heading"><strong>Live sequence</strong><span data-sequence-count>Waiting</span></div>
+              <div class="sequence-participants" aria-label="Sequence participants"><span>UI / guess loop</span><span>Login simulator</span><span>Local state</span><span>MFA input</span></div>
+              <ol class="sequence-events" data-sequence-events aria-live="polite"><li class="sequence-empty">Sign in or run the fixed attack to begin.</li></ol>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
   </div>
 
   <section class="home-contact" id="contact" aria-labelledby="contact-heading">
@@ -316,6 +548,11 @@
   <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
   
 
+  
+  
+  
+  <script src="/js/playground.min.1aa8c0b040a40a44dbe1bc56135fb2deb237a31077fdbb123a3a9dea10febfe5.js" integrity="sha256-GqjAsECkCkTb4bxWE1&#43;y3rI3oxB3/bsSOjqd6hD&#43;v&#43;U="></script>
+  
   
 
   
