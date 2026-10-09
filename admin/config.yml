@@ -1,0 +1,49 @@
+backend:
+  name: github
+  repo: rafaeltm/website
+  branch: master
+  base_url: https://rtorresm-content-auth.rtorresm.workers.dev
+  auth_endpoint: auth
+
+site_url: https://rtorresm.com
+display_url: https://rtorresm.com
+locale: es
+publish_mode: simple
+media_folder: static/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: posts
+    label: Posts
+    label_singular: Post
+    folder: content/posts
+    create: true
+    delete: true
+    extension: md
+    format: toml-frontmatter
+    slug: "{{slug}}"
+    summary: "{{title}} - {{date}}"
+    fields:
+      - label: Título
+        name: title
+        widget: string
+      - label: Fecha
+        name: date
+        widget: datetime
+        format: "YYYY-MM-DDTHH:mm:ssZ"
+        date_format: "DD/MM/YYYY"
+        time_format: "HH:mm"
+      - label: Autor
+        name: author
+        widget: string
+        default: Rafael Torres Moreno
+      - label: Descripción
+        name: description
+        widget: string
+      - label: Etiquetas
+        name: tags
+        widget: list
+        required: false
+      - label: Contenido
+        name: body
+        widget: markdown
